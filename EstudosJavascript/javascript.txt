@@ -1,0 +1,146 @@
+'Whind + R' (powershell)
+
+O Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Instale o PowerShell mais recente para obter novos recursos e aprimoramentos! https://aka.ms/PSWindows
+
+PS C:\Users\vaio-Labfrei-014> dir(enter)
+
+
+    Diretório: C:\Users\vaio-Labfrei-014
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22/08/2023     12:58                .android
+d-----        30/08/2023     08:46                .chocolatey
+d-----        22/08/2023     12:47                .gradle
+d-----        23/08/2023     11:13                .vscode
+d-r---        22/08/2023     00:04                Contacts
+d-r---        08/03/2024     11:20                Desktop
+d-r---        23/02/2024     07:22                Documents
+d-r---        08/03/2024     11:23                Downloads
+d-r---        22/08/2023     00:04                Favorites
+d-r---        22/08/2023     00:04                Links
+d-r---        22/08/2023     00:04                Music
+d-r---        22/08/2023     00:06                OneDrive
+d-r---        28/09/2023     17:26                Pictures
+d-r---        22/08/2023     00:04                Saved Games
+d-r---        22/08/2023     00:05                Searches
+d-r---        22/08/2023     00:19                Videos
+-a----        22/08/2023     08:55             16 .emulator_console_auth_token
+-a----        08/03/2024     11:23            206 .gitconfig
+-a----        23/08/2023     11:19              0 .node_repl_history
+
+
+PS C:\Users\vaio-Labfrei-014> cd(tab) .\Downloads\
+PS C:\Users\vaio-Labfrei-014\Downloads> mkdir iniciandoOjavascript
+
+
+    Diretório: C:\Users\vaio-Labfrei-014\Downloads
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        08/03/2024     11:28                iniciandoOjavascript
+
+
+PS C:\Users\vaio-Labfrei-014\Downloads> dir(enter)
+
+
+    Diretório: C:\Users\vaio-Labfrei-014\Downloads
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        08/03/2024     11:33                Agenda
+d-----        08/03/2024     11:28                iniciandoOjavascript
+-a----        13/12/2023     10:32         216412 1525094837_ARQUIVO_ArtigoCompletoCampinas2018_BNH.pdf
+-a----        01/02/2024     07:59         599789 1ª LISTA -TURMA EsPCEX_240130_193706 (1).pdf
+-a----        03/02/2024     15:20         599789 1ª LISTA -TURMA EsPCEX_240130_193706 (2).pdf
+-a----        30/01/2024     21:49         599789 1ª LISTA -TURMA EsPCEX_240130_193706.pdf
+-a----        28/11/2023     12:32        6980367 260-questoes-sus-e-portugues-ibfc-parte-1.pdf
+-a----        03/11/2023     11:21          14948 2º Etapa - Pré-projeto.docx
+-a----        16/11/2023     13:25        2021408 A MOBILIDADE URBANA NA CONTEMPORIANIEDADES.pptx
+-a----        23/09/2023     07:09      317190808 Apresentação CEV Colégio.pptx
+-a----        15/01/2024     10:58         793076 ass.pdf
+-a----        05/12/2023     17:25         679540 assessor_legislativo_area_administrativa.pdf
+-a----        09/11/2023     04:18          13345 ASSISTÊNCIA A ANIMAIS EM SITUAÇÃO DE VULNERABILIDADE.docx
+-a----        03/11/2023     11:18          13524 ATV-07 Pré-projeto (Resultados e Discurssões).docx
+-a----        15/01/2024     10:56        3915496 Aula 00 - Intensivo - Redação - EsPCEx - 2023.pdf
+-a----        04/01/2024     10:58        1856140 Aula 00 - Intensivo Prep 2023.pdf
+-a----        05/01/2024     15:14        1872248 Aula 00 mat 1 livro.pdf
+-a----        05/01/2024     09:23        1872248 Aula 00 mat 1.pdf
+-a----        05/01/2024     10:34        3547907 Aula 00_ IDADE MÉDIA.pdf
+-a----        04/02/2024     00:44         357047 AULA 01 - ESCOLAS MILITARES - OPERAÇÕES COM NÚMEROS COMPLEXOS (001-06) (1).pdf
+-a----        02/02/2024     07:15         357047 AULA 01 - ESCOLAS MILITARES - OPERAÇÕES COM NÚMEROS COMPLEXOS (001-06).pdf
+-a----        02/02/2024     10:57         357862 AULA 02 - ESCOLAS MILITARES - CONJUGADO DE UM COMPLEXO (07 - 08) (1).pdf
+-a----        04/02/2024     01:00         357862 AULA 02 - ESCOLAS MILITARES - CONJUGADO DE UM COMPLEXO (07 - 08) (2).pdf
+-a----        02/02/2024     07:16         357862 AULA 02 - ESCOLAS MILITARES - CONJUGADO DE UM COMPLEXO (07 - 08).pdf
+-a----        02/02/2024     10:16         453430 AULA 03 - ESCOLAS MILITARES - MÓDULO DE UM COMPLEXO (009 - 012) (1).pdf
+-a----        04/02/2024     01:17         453430 AULA 03 - ESCOLAS MILITARES - MÓDULO DE UM COMPLEXO (009 - 012) (2).pdf
+-a----        04/02/2024     01:44         453430 AULA 03 - ESCOLAS MILITARES - MÓDULO DE UM COMPLEXO (009 - 012) (3).pdf
+-a----        02/02/2024     07:16         453430 AULA 03 - ESCOLAS MILITARES - MÓDULO DE UM COMPLEXO (009 - 012).pdf
+-a----        31/01/2024     08:47         858747 AULA 1-SUBSTÃ_NCIAS E MISTURAS (EXPECEX).pdf
+-a----        31/01/2024     08:47         539947 AULA 2-ALOTROPIA (EXPECEX).pdf
+-a----        09/11/2023     16:38         129724 Avaliação da Aprendizagem - NEFE - 1° ano E.M - Novembro 2023.docx
+-a----        29/11/2023     06:41         126637 Boleto _ 745.113.943-34.pdf
+-a----        30/08/2023     08:43        5243268 chocolatey.2.2.2.nupkg
+-a----        14/11/2023     16:20          17937 coleta de dados , python , oficial(g).xlsx
+-a----        14/11/2023     10:21          14119 coleta de dados , python , oficial.xlsx
+-a----        13/11/2023     08:34         431946 dados.xlsx
+-a----        03/02/2024     15:19        1076272 Derivada e integral.pdf
+-a----        28/09/2023     16:52            804 Documentos - Atalho.lnk
+-a----        04/01/2024     18:35        3053936 EsPCEx 2023 - Intensivo - 00 - Introdução à Química.pdf
+-a----        12/12/2023     11:33        1156952 fe1e146a0cafce27a88c0362a44da1dd.pdf
+-a----        03/02/2024     21:40       11920227 FME 2.pdf
+-a----        28/09/2023     10:08        1770383 FRANCISCA BEATRIZ SANTOS DA COSTA - ADMISSIONAL -  06.03.2023.pdf
+-a----        28/09/2023     10:08         103854 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 03.08.2023.jpeg
+-a----        28/09/2023     10:08         119842 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 08.08.2023.jpeg
+-a----        28/09/2023     10:08          96853 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 17.07.2023.jpeg
+-a----        28/09/2023     10:08         116680 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 23.08.2023 FOTO SEM CID.jpeg
+-a----        28/09/2023     10:08         145380 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 23.08.2023.jpeg
+-a----        28/09/2023     10:08         103208 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 25.08.2023.jpeg
+-a----        28/09/2023     10:08        1179014 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 27.04.2023.pdf
+-a----        28/09/2023     10:08         132736 FRANCISCA BEATRIZ SANTOS DA COSTA - ATESTADO MÉDICO - 29.08.2023.jpeg
+-a----        23/02/2024     07:20      143687272 GitHubDesktopSetup-x64.exe
+-a----        22/09/2023     14:25         858121 HORA DO RECREIO.pptx
+-a----        23/02/2024     07:30        3686508 Iniciando front-end.pdf
+-a----        06/11/2023     23:52        2569464 itinerarios emerson grupo 5- ATUALIZADO DENOVO [Salvo automaticamente]-.pptx
+-a----        23/02/2024     07:43         115680 maxresdefault-1200x675.jpg
+-a----        23/02/2024     07:38         164734 maxresdefault.jpg
+-a----        04/03/2024     11:22        2765617 Meu site parte 2 - Finalizado !.pdf
+-a----        28/09/2023     09:23         200221 NOTAS TÉCNICAS EDUCATIVAS.xlsx
+-a----        01/02/2024     07:39         399251 números complexos.pdf
+-a----        28/09/2023     11:32          71168 PLANILHACOLABORADORESFREI-ELEIÇÃO CIPA FREI -28.09.2023.XLS
+-a----        03/11/2023     11:23           7713 pre-projeto08 (1).docx
+-a----        03/11/2023     11:21           7713 pre-projeto08.docx
+-a----        03/11/2023     11:22         617133 pré-projeto ATV05 e ATV06 03.07.23 .pptx
+-a----        04/03/2024     11:15       26667456 python-3.12.2-amd64.exe
+-a----        14/11/2023     16:15       11853433 quase final - projeto.pptx
+-a----        28/09/2023     11:42        1943552 RELAÇÃO DE VOTAÇÃO - CIPA FREI (1).XLS
+-a----        28/09/2023     11:44        1943552 RELAÇÃO DE VOTAÇÃO - CIPA FREI (2).XLS
+-a----        28/09/2023     11:46        1943552 RELAÇÃO DE VOTAÇÃO - CIPA FREI (3).XLS
+-a----        28/09/2023     11:42        1943552 RELAÇÃO DE VOTAÇÃO - CIPA FREI.XLS
+-a----        28/09/2023     12:35         480009 RELAÇÃO DE VOTAÇÃO - CIPA FREI.xlsx
+-a----        28/09/2023     12:01        1939968 RELAÇÃO DE VOTOS POR CANDIDATO - CIPA FREI.XLS
+-a----        31/10/2023     09:17        4620272 RobloxPlayerInstaller.exe
+-a----        13/11/2023     07:47       10472940 slide importante.pptx
+-a----        09/11/2023     04:21        1750951 slides grupo 6, 2b frei patamiga.pptx
+-a----        16/11/2023     10:17        1847458 Slides Itinerários 23 - Tuberculose final.pptx
+-a----        13/11/2023     09:04       45488536 Tour 1.mp4
+-a----        28/09/2023     10:01          18226 TURMA- A-22 SEGURANÇA DO TRABALHO - FINAL DE SEMANA.docx
+-a----        28/09/2023     10:02          17656 TURMA- C-22 SEGURANÇA DO TRABALHO - FINAL DE SEMANA.docx
+-a----        28/09/2023     10:01          19247 TURMA- D - 23 SEGURANÇA DO TRABALHO - FINAL DE SEMANA.docx
+-a----        14/11/2023     08:41       10055164 ultima alt.pptx
+-a----        14/11/2023     12:14       11852468 ultima atualiação 1.pptx
+-a----        22/08/2023     00:26        3942728 VisualStudioSetup.exe
+-a----        22/08/2023     00:26       93351472 VSCodeUserSetup-x64-1.81.1.exe
+-a----        29/09/2023     18:24         178192 WhatsApp Image 2023-09-29 at 18.22.52.jpeg
+-a----        19/09/2023     08:22        2290512 winbox64.exe
+-a----        03/11/2023     11:21         569640 _Slide -PADRÃO- IF-2023.pptx
+
+
+PS C:\Users\vaio-Labfrei-014\Downloads> cd(tab) .\iniciandoOjavascript\
+PS C:\Users\vaio-Labfrei-014\Downloads\iniciandoOjavascript> node -v(enter)
